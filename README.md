@@ -25,6 +25,18 @@ pslab-python can be installed from PyPI:
 
 	$ pip install pslab
 
+**On Debian/Ubuntu:**
+
+sudo apt-get install python3 python3-pip
+
+**On macOS:**
+
+brew install python3
+
+**Other platforms:**
+
+Visit https://www.python.org/downloads/
+
 **Note**: Linux users must either install a udev rule by running 'pslab install' as root, or be part of the 'dialout' group in order for pslab-python to be able to communicate with the PSLab device.
 
 **Note**: Windows users who use the PSLab v6 device must download and install the CP210x Windows Drivers from the [Silicon Labs website](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) in order for pslab-python to be able to communicate with the PSLab device.
